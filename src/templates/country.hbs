@@ -1,0 +1,25 @@
+<div class="container_card">
+    <div class="card">
+        <h2>{{name}}</h2>
+        <p>Capital: {{capital}}</p>
+        <p>Population: {{population}}</p>
+        <p>Languages:
+        <ul>
+            {{#each languages}}
+            <li> {{name}} </li>
+            {{/each}}
+        </ul>
+        </p>
+    </div>
+    <div class="card_img">
+        <img width="250px" src="{{flag}}" alt="{{name}}">
+    </div>
+</div>
+{{!-- <!--
+demonym: "Ukrainian"
+capital: "Kiev"
+population: 42692393
+languages: Array(1)
+0: {iso639_1: "uk", iso639_2: "ukr", name: "Ukrainian", nativeName: "Українська"}
+flag: "https://restcountries.eu/data/ukr.svg"
+--> --}}

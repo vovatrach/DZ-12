@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 30px;
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+}
+
+li,
+ol {
+  list-style: none;
+}
+button:active,
+button:focus {
+  outline: none;
+}
+body {
+  background-image: url('../image/depositphotos_54856347-stock-photo-travel-the-world-monument-concept.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wrapper {
+  font-family: 'Assistant', sans-serif;
+  color: #454949;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.search {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color: #454949;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.search_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.search_input input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #16def0;
+  border-radius: 5px;
+  outline: none;
+  background: #fafffe;
+  color: #545050;
+  font-family: 'Xanh Mono', monospace;
+}
+.container_card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.country_list {
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 50px;
+}
+.country_list li {
+  padding: 5px;
+  backdrop-filter: blur(3px);
+}
